@@ -21,7 +21,7 @@ const NavBar = () => {
             >
                 New Book
             </NavLink>
-            <Form id="search-form" role="search">
+            <Form id="search-form" role="search" method="get" action="/books">
                 <input
                     id="q"
                     aria-label="Search books"
